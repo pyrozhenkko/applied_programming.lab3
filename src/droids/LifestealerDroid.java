@@ -10,25 +10,6 @@ public class LifestealerDroid extends Droid {
         this.lifestealPercentage = lifestealPercentage;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-    public void setHealth(double health) {
-        this.health = health;
-    }
-    public void setDamage(double damage) {
-        this.damage = damage;
-    }
-    public String getName() {
-        return this.name;
-    }
-    public double getHealth() {
-        return this.health;
-    }
-    public double getDamage() {
-        return this.damage;
-    }
-
     public void show() {
         System.out.println("Lifestealer Droid:");
         System.out.println("Name: " + name);

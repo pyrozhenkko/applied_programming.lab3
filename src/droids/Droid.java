@@ -11,12 +11,24 @@ public abstract class Droid {
         this.damage = damage;
     }
 
-    public abstract void setName(String name);
-    public abstract void setHealth( double health);
-    public abstract void setDamage(double damage);
-    public abstract String getName();
-    public abstract double getHealth();
-    public abstract double getDamage();
+    public  void setName(String name){
+        this.name = name;
+    }
+    public  void setHealth( double health){
+        this.health = health;
+    }
+    public  void setDamage(double damage){
+        this.damage = damage;
+    }
+    public  String getName(){
+        return name;
+    }
+    public  double getHealth(){
+        return health;
+    }
+    public  double getDamage(){
+        return damage;
+    }
     public abstract void attack(Droid enemy);
     public abstract void show();
 }

@@ -10,25 +10,6 @@ public class RegenerationDroid extends Droid {
         this.regenRate = regenRate;
     }
 
-    public void setName(String name) {
-        super.name = name;
-    }
-    public void setHealth(double health) {
-        super.health = health;
-    }
-    public void setDamage(double damage) {
-        super.damage = damage;
-    }
-    public String getName() {
-        return super.name;
-    }
-    public double getHealth() {
-        return super.health;
-    }
-    public double getDamage() {
-        return super.damage;
-    }
-
     public void show() {
         System.out.println("Regeneration Droid:");
         System.out.println("Name: " + name);
